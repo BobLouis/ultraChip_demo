@@ -3,8 +3,8 @@ import subprocess
 
 # Get all files that start with "BLOCK"
 files = [f for f in os.listdir() if f.startswith('BLOCK')]
-subprocess.run(["gcc", "lzss.c", "-o", "lzss"])
-subprocess.run(["gcc", "lzss_split.c", "-o", "lzss_split"])
+# subprocess.run(["gcc", "lzss.c", "-o", "lzss"])
+# subprocess.run(["gcc", "lzss_split.c", "-o", "lzss_split"])
 
 sum = 0
 cnt = 0
