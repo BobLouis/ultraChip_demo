@@ -8,8 +8,8 @@ if len(sys.argv) > 1:  # 檢查是否提供了參數
 else:
     print("No file provided.")
 
-subprocess.run(["gcc", "lzss.c", "-o", "lzss"])
-subprocess.run(["gcc", "lzss_split.c", "-o", "lzss_split"])
+# subprocess.run(["gcc", "lzss.c", "-o", "lzss"])
+# subprocess.run(["gcc", "lzss_split.c", "-o", "lzss_split"])
 
 
 
